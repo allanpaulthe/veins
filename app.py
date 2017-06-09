@@ -23,6 +23,12 @@ def home():
     """Render website's home page."""
     return render_template('index.html')
 
+@app.route('/login/')
+def login():
+    """Render website's home page."""
+    return render_template('login.html')
+
+
 
 @app.route('/about/')
 def about():
